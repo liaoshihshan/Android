@@ -1,0 +1,10 @@
+看xml(介面檔):
+把要看的xml檔與AXMLPrinter2.jar放在同一個資料夾內
+使用命令提示字元輸入:
+java -jar AXMLPrinter2.jar AndroidManifest(檔名).xml ->AndroidManifest(檔名).txt
+會產生可以看的txt檔
+看程式碼:
+1.把dex2jar資料夾與下載好的apk檔改成1.apk放在D槽
+2.打開命令提示字元輸入「D:\dex2jar\dex2jar.bat D:\1.apk」，會產生D:\1_dex2jar.jar檔
+3.用jd-gui開啟D:\1_dex2jar.jar檔就可看到程式碼
+

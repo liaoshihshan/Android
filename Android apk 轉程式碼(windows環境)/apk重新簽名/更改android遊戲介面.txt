@@ -1,0 +1,8 @@
+1.下載遊戲apk檔:
+http://www.downloads.ws/android/search/
+用google play搜尋app extraction下載apk抽取再把下載好的app用apk抽取取出apk檔
+2.把apk檔改成zip檔
+3.不解壓縮用滑鼠點兩下打開META-INF資料夾刪除CERT.SF與CERT.RST兩個簽名檔
+4.找出圖片的資料夾把新的圖片命名成與原圖片相同的檔名蓋掉原圖片
+5.把壓縮檔名重新命名並改為apk檔
+6.打開AndroidResEdit_By_hanhualangzi_v_1.5.exe檔案簽名(S)->簽名apk文件(A)選擇要簽名的apk檔
